@@ -14,7 +14,7 @@ python traversal.py
 ## 1. Traversing  through a directory tree
 Lets say you have a directory tree like this
 
-```bash
+```txt
 +--- test.py
 |
 +--- [subdir1]
@@ -49,16 +49,16 @@ if __name__ == '__main__':
 ```javascript
 root_directory:
 {
-        subdir:{
-			file1a.txt: b'/0f/867b/da24', //file in bytestring
-			file1b.png: b'/0f/835f/aa3c' 
-		},
+    subdir:{
+	file1a.txt: b'/0f/867b/da24', //file in bytestring
+	file1b.png: b'/0f/835f/aa3c' 
+	},
 
-        subdir2: {
-            file2a.jpeg: b'/0f/7a5f/ba3c',
-			file2b.html: b'/0f/ad2f/cb3c',
+    subdir2: {
+    	file2a.jpeg: b'/0f/7a5f/ba3c',
+	file2b.html: b'/0f/ad2f/cb3c',
         },
-        test.py: b'/0ffc/aaf2f/cec3c'
+    test.py: b'/0ffc/aaf2f/cec3c'
 }
 ```
 
@@ -72,20 +72,20 @@ import os
 
 
 def traverse(path:str):
-	....
+    ....
 
-	return dict
+    return dict
 
 
 def create_traveral(hash:dict, destination_dir:str):
-	....
+    ....
 
 path = "C:/Your/directory/path/"
 
 destination_dir = "C:/Your/destination_directory/path/"
 
 if __name__ == '__main__':
-	create_traveral(traverse(path), destination_dir)
+    create_traveral(traverse(path), destination_dir)
 
 ```
 
