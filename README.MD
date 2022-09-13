@@ -14,20 +14,20 @@ python traversal.py
 ## 1. Traversing  through a directory tree
 Lets say you have a directory tree like this
 
-```txt
-+--- test.py
-|
-+--- [subdir1]
-|     |
-|     +--- file1a.txt
-|     +--- file1b.png
-|
-+--- [subdir2]
-|
-+--- file2a.jpeg
-+--- file2b.html
 
-```
+	+--- test.py
+	|
+	+--- [subdir1]
+	|     |
+	|     +--- file1a.txt
+	|     +--- file1b.png
+	|
+	+--- [subdir2]
+	|
+	+--- file2a.jpeg
+	+--- file2b.html
+
+
 And need to tranvese through the directory to get where a file is stored or read a particular file:
 
 ### Just run:
